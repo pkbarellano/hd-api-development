@@ -21,6 +21,38 @@ module.exports = {
         groupId: 1,
         createdAt: new Date(),
         updatedAt: new Date()
+      },
+      {
+        userId: 2,
+        email: 'email@email.com',
+        departmentId: 2,
+        groupId: 1,
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        userId: 3,
+        email: 'email@email.com',
+        departmentId: 2,
+        groupId: 1,
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        userId: 4,
+        email: 'email@email.com',
+        departmentId: 2,
+        groupId: 1,
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        userId: 5,
+        email: 'email@email.com',
+        departmentId: 2,
+        groupId: 1,
+        createdAt: new Date(),
+        updatedAt: new Date()
       }
     ]);
   },

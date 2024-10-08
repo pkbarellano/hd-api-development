@@ -26,6 +26,12 @@ exports.validate = () => {
             .isLength({
                 min: 1,
                 max: 10
-            }).withMessage("Department must contain a minimum of 1 character and cannot exceed 10 characters.")
+            }).withMessage("Department must contain a minimum of 1 character and cannot exceed 10 characters."),
+        body('page')
+            .isNumeric().withMessage("Page must consist of numbers only.")
+            .isLength({ min: 1 }).withMessage("Page must contain a minimum of 1 character."),
+        body('rowsPerPage')
+            .isNumeric().withMessage("Rows Per Page must consist of numbers only.")
+            .isLength({ min: 1 }).withMessage("Rows Per Page must contain of 1 character.")
     ];
 };
